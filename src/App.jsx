@@ -5,8 +5,8 @@ function App() {
   const [step, setStep] = useState(1)
   const [noHovered, setNoHovered] = useState(false)
   const [noPosition, setNoPosition] = useState({ x: 0, y: 0 })
-  const [name1] = useState('Mounika')
-  const [name2] = useState('Pavan')
+  const [name1] = useState('Ankila')
+  const [name2] = useState('Hrushi')
 
   const handleNoClick = () => {
     const randomX = Math.random() * 300 - 150
